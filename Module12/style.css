@@ -1,0 +1,49 @@
+/**===========
+         Part 2: Styling the BMI Calculator 
+                                       ============**/
+                                      
+body{
+   font-family: 'Open Sans', sans-serif;
+}
+.body-img{
+   background-image: url('assets/photo-1542831371-29b0f74f9713.jpeg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width:100vh;
+   height:100vh;  
+}
+#form{
+   background-color: rgb(176, 190, 202);
+   width: 420px;
+   height: 350px;
+   border-radius: 20px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+   box-shadow: 10px 10px 30px darkslategrey;
+}
+#form h3{
+   margin: 30px 0 20px 0;
+   font-weight: 600;
+}
+#form .label{
+   display: block;
+   margin-right: 170px;
+   font-weight: 500;
+   font-size: 15px;
+}
+#weightInput, #heightInput{
+   width: 250px;
+   height: 35px;
+   border: 1px solid lightgrey;
+   border-radius: 10px;
+   margin: 10px;
+}
+#form h4{
+   margin-top: 15px;
+   font-size: 20px;
+   font-weight: 600;
+}
